@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@hono/hono": "jsr:@hono/hono@^4.4.12",
+    "@iuioiua/r2d2": "jsr:@iuioiua/r2d2@^2.1.1",
+    "@justaos/orm": "jsr:@justaos/orm@^10.0.0"
+  },
+  "tasks": {
+    "start": "deno run -A --watch --unstable-kv main.ts"
+  }
+}
