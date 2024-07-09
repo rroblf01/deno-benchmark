@@ -5,7 +5,7 @@ import { default as redis_client } from "./clients/redis.ts";
 
 const app = new Hono();
 
-app.get("/", (c) => c.text("Hello Deno"));
+app.get("/", (c) => c.text("Hello Deno!"));
 
 app.get("/init", async (c) => {
   // DenoKV
